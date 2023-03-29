@@ -1,0 +1,39 @@
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+
+    <changeSet id="3.0.0" author="roman">
+        <!--encode size 12, passwords: user, admin -->
+        <sql>
+            insert into public.accounts (first_name, last_name, email, roles, password) values ('Ivanov', 'Ivan', 'user@gmail.com', 'USER', '$2a$12$Zm9LU9DYTjgnezM6dgMnEecp1Ztz0467hsk.6rYAMr4lDmetW3jCS')
+        </sql>
+        <sql>
+            insert into public.accounts (first_name, last_name, email, roles, password) values ('Petrov', 'Petr', 'admin@gmail.com', 'USER,ADMIN', '$2a$12$mFkgzo0qHOLO2SVplbhC1eVCtcmeUz/mZ7dUZ62QrxALtdQFz5yEW')
+        </sql>
+    </changeSet>
+
+
+    <changeSet id="3.0.1" author="roman">
+        <sql>
+            insert into public.messages (sender, receiver, message_text, creation_datetime, modification_datetime) values (1, 2, 'hi, Petr', '2022-01-01 10:15:14', null)
+        </sql>
+        <sql>
+            insert into public.messages (sender, receiver, message_text, creation_datetime, modification_datetime) values (2, 1, 'hi, Ivan', '2022-01-01 10:15:18', null)
+        </sql>
+        <sql>
+            insert into messages (sender, receiver, message_text, creation_datetime, modification_datetime) values (1,2, 'message 1', '2020-01-01 12:01:10', null);
+        </sql>
+        <sql>
+            insert into messages (sender, receiver, message_text, creation_datetime, modification_datetime) values (1,2, 'message 1', '2020-01-01 12:01:10', '2020-01-02 14:10:10');
+        </sql>
+        <sql>
+            insert into messages (sender, receiver, message_text, creation_datetime, modification_datetime) values (1,1, 'to yourself', '2020-01-02 12:01:10', null);
+        </sql>
+    </changeSet>
+
+
+
+
+</databaseChangeLog>

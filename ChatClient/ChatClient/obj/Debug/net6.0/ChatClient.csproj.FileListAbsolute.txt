@@ -1,0 +1,17 @@
+G:\VS projects\ChatClient\ChatClient\bin\Debug\net6.0\ChatClient.exe
+G:\VS projects\ChatClient\ChatClient\bin\Debug\net6.0\ChatClient.deps.json
+G:\VS projects\ChatClient\ChatClient\bin\Debug\net6.0\ChatClient.runtimeconfig.json
+G:\VS projects\ChatClient\ChatClient\bin\Debug\net6.0\ChatClient.dll
+G:\VS projects\ChatClient\ChatClient\bin\Debug\net6.0\ChatClient.pdb
+G:\VS projects\ChatClient\ChatClient\obj\Debug\net6.0\ChatClient.csproj.AssemblyReference.cache
+G:\VS projects\ChatClient\ChatClient\obj\Debug\net6.0\ChatClient.GeneratedMSBuildEditorConfig.editorconfig
+G:\VS projects\ChatClient\ChatClient\obj\Debug\net6.0\ChatClient.AssemblyInfoInputs.cache
+G:\VS projects\ChatClient\ChatClient\obj\Debug\net6.0\ChatClient.AssemblyInfo.cs
+G:\VS projects\ChatClient\ChatClient\obj\Debug\net6.0\ChatClient.csproj.CoreCompileInputs.cache
+G:\VS projects\ChatClient\ChatClient\obj\Debug\net6.0\ChatClient.dll
+G:\VS projects\ChatClient\ChatClient\obj\Debug\net6.0\refint\ChatClient.dll
+G:\VS projects\ChatClient\ChatClient\obj\Debug\net6.0\ChatClient.pdb
+G:\VS projects\ChatClient\ChatClient\obj\Debug\net6.0\ChatClient.genruntimeconfig.cache
+G:\VS projects\ChatClient\ChatClient\obj\Debug\net6.0\ref\ChatClient.dll
+G:\VS projects\ChatClient\ChatClient\bin\Debug\net6.0\Leaf.xNet.dll
+G:\VS projects\ChatClient\ChatClient\obj\Debug\net6.0\ChatClient.csproj.CopyComplete

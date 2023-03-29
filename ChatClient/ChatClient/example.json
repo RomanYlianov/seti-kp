@@ -1,0 +1,5 @@
+HTTP/1.1 200 X-Content-Type-Options: nosniff X-XSS-Protection: 1; mode=block Cache-Control: no-cache, no-store, max-age=0, must-revalidate Pragma: no-cache\r\nExpires: 0 X-Frame-Options: DENY Set-Cookie: SESSION=NjJkYzJmYmItNGRhYi00ZWFiLTg5MzktZmZjMGM1OGM5Mjc5; Path=/; HttpOnly; SameSite=Lax Content-Type: application/json\r\nTransfer-Encoding: chunked Date: Tue, 07 Mar 2023 10:02:35 GMT Connection: close 5d {
+  \"id\":4, \"firstName\":\"Valerya\",
+  \"lastName\":\"Sidorov\", \"roles\":[\"USER\"],
+  \"email\":\"demo@gmail.com\"
+}

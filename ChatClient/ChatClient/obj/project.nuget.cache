@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "12fg8qozBUE1IBxidqSGjWnItwe1wVvaQeqgDkYLV/QuOmp5DXGqgdYnSRc3Vy2G1VdqgNlmv/wC+UBNFzRJqA==",
+  "success": true,
+  "projectFilePath": "G:\\VS projects\\ChatClient\\ChatClient\\ChatClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ROMAN\\.nuget\\packages\\leaf.xnet\\5.2.10\\leaf.xnet.5.2.10.nupkg.sha512"
+  ],
+  "logs": []
+}
